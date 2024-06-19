@@ -1,0 +1,124 @@
+.body_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f2937;
+}
+.login_container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.login{
+    width: 400px;
+}
+.login_form{
+    width: 250px;
+    margin: 60px auto;
+}
+.login_h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.login_p{
+    text-align: center;
+    margin: 10px;
+}
+.login_p:hover{
+    text-decoration: underline;
+}
+.login_hr{
+    border-top: 2px solid #1f2937;;
+}
+
+.pic .login_img{
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.login_form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+.login_input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.login_button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #1f2937;
+}
+.login_button:hover{
+    background: #151c27;
+}
+.login_p{
+    margin: 20px;
+}
+.login_a{
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width: 880px){
+    .login_container{
+        width: 80%;
+    }
+    .login{
+        width: 80%;
+    }
+    .pic .login_img{
+        width: 300px;
+    }
+    
+}
+@media(max-width: 720px){
+    .pic{
+        display: none;
+    }
+    .login{
+        margin: 0 auto;
+    }
+
+    .login_container{
+        width: 80%;
+        display: flex;
+    }
+    .login_form{
+        width: 80%;
+        margin: 60px auto;
+    }
+    .login_button{
+        width: 100%;
+   }        
+}
+
+@media(max-width: 500px){
+    .login_form{
+        width: 100%;
+    }
+}
